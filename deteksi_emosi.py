@@ -15,7 +15,7 @@ INDEKS_KAMERA = 0                                   # jalankan: python deteksi_e
 DETEKTOR = ["ssd", "opencv", "yunet", "retinaface"] # tombol 'd' untuk ganti
 SISI_ANALISIS = 640                                 # sisi terpanjang frame saat mencari wajah
 UMUR_HASIL = 1.5
-NAMA_JENDELA = "Stand Pameran AI - Deteksi Emosi"
+NAMA_JENDELA = "Python OpenCV-Emotion Detection"
 LEBAR_PANEL = 300       # lebar panel indikator di sisi kiri (px, pada resolusi kamera)
 FOLDER_STIKER = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stickers")
 
